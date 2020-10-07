@@ -282,7 +282,6 @@ ol {
     bottom: -5px;
     z-index: 0; }
   .cv-photo img {
-    transform: scaleX(-1);
     margin: 0 auto;
     display: inline-block;
     width: 156px;
@@ -515,6 +514,18 @@ body.theme-custom .progress .bar {
   }
 }
 
+@media (max-width: 739px) {
+  .cv-links {
+    text-align: center;
+  }
+
+  .cv-contact-footer > div {
+    width: 100% !important;
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+}
+
 ul.check-list {
   list-style: none;
 }
@@ -571,12 +582,6 @@ ul.check-list > li:before {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(82, 143, 254, 0.3);
-}
-
-.cv-contact-footer > div {
-  display: inline-block;
-  width: 33%;
-  text-align: center;
 }
 
 .cv-contact-footer > div {
