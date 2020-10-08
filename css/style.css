@@ -514,15 +514,17 @@ body.theme-custom .progress .bar {
   }
 }
 
-@media (max-width: 739px) {
-  .cv-links {
-    text-align: center;
-  }
+@media not print {
+  @media (max-width: 739px) {
+    .cv-links {
+      text-align: center;
+    }
 
-  .cv-contact-footer > div {
-    width: 100% !important;
-    padding-bottom: 6px;
-    padding-top: 6px;
+    .cv-contact-footer > div {
+      width: 100% !important;
+      padding-bottom: 6px;
+      padding-top: 6px;
+    }
   }
 }
 
